@@ -25,7 +25,7 @@ and **Run as administrator** to install OpenAI Whisper and it's dependencies.
 
 | File | Description | Note |
 | ---- | ----------- | ---- |
-| generate-base.bat | Uses the `base` AI model | Less accurate but faster |
-| generate-medium.bat | Uses the `medium` AI model | Good balance between accuracy and speed. |
-| generate-large.bat | Uses the `large` AI model | The most accurate but slower |
-| generate-en.bat | Uses the `medium.en` AI model | For English only videos. In most cases, this Medium English model is accurate enough. |
+| generate-base.bat | Uses the `base` model | Less accurate but faster |
+| generate-medium.bat | Uses the `medium` model | Good balance between accuracy and speed. |
+| generate-large.bat | Uses the `large` model | The most accurate but slower |
+| generate-en.bat | Uses the `medium.en` model | For English only videos. In most cases, this Medium English model is accurate enough. |
