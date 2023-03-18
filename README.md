@@ -8,7 +8,9 @@ Provides a one-click solution for **installing** and **creating transcripts** wi
 
 ### Install on Windows
 
-Right click the `install.bat` or `install-nvidia.bat` file
+1. Download the latest installer from [here](https://github.com/FuyukiSakura/openai-whisper-for-noobs/releases/latest/download/whisper-installer-windows.zip).
+2. Unzip the files to a place you can access easily. (You will need it later.)
+3. Right click the `install.bat` or `install-nvidia.bat` file
 and **Run as administrator** to install OpenAI Whisper and it's dependencies.
 
 > The install.bat files must run with **elevated privileges**
