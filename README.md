@@ -1,33 +1,15 @@
-# OpenAI Whisper for noobs
+# One-Click AI
 
-Provides a one-click solution for **installing** and **creating transcripts** with OpenAI whisper for people with minimum technical knowledge.
+As the name suggested. **One click** is all you need to get your AI up and running.
 
-![OpenAI Whisper workflow](./images/workflow_illustrate.jpg)
+> Currently only available for Windows
 
-## Usage
+## Introduction
 
-### Install on Windows
+The AI tools nowadays are very powerful, but they are also very complicated. It is not easy to get started. This project provides scripts to install and run AI tools with only one click. No configuration is needed.
 
-1. Download the latest installer from [here](https://github.com/FuyukiSakura/openai-whisper-for-noobs/releases/latest/download/whisper-installer-windows.zip).
-2. Unzip the files to a place you can access easily. (You will need it later.)
-3. Right click the `install.bat` or `install-nvidia.bat` file
-and **Run as administrator** to install OpenAI Whisper and it's dependencies.
+## Supported AI tools
 
-> The install.bat files must run with **elevated privileges**
-
-| File | Description |
-| ---- | ----------- |
-| install.bat | Installs OpenAI Whisper |
-| install-nvidia.bat | installs OpenAI Whisper with CUDA support (Nvidia GPU acceleration) |
-
-### Creating a time-coded subtitle transcript
-
-1. Drag and drop the video file into the `generate-<model>.bat` file inside the `subtitle` folder.
-2. The generated subtitle file will be in the same folder as the video file.
-
-| File | Description | Note |
-| ---- | ----------- | ---- |
-| generate-base.bat | Uses the `base` model | Less accurate but faster |
-| generate-medium.bat | Uses the `medium` model | Good balance between accuracy and speed. |
-| generate-large.bat | Uses the `large` model | The most accurate but slower |
-| generate-en.bat | Uses the `medium.en` model | For English only videos. In most cases, this Medium English model is accurate enough. |
+| AI tool | Version | Supported use case(s) |
+| --- | --- | --- |
+| [OpenAI whisper](./subtitle/) | Latest | Create subtitle files for videos in different languages |
