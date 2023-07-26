@@ -9,10 +9,10 @@
 ### Windows安裝
 
 1. 點擊 [**此處**](https://github.com/FuyukiSakura/one-click-ai/releases/latest/download/one-click-whisper-windows.zip) 下載安裝檔案。
-2. 解壓縮檔案到常用的位置。（之後會經常用到）
+2. 解壓縮檔案到常用的位置（之後需要用到）
 3. 右鍵點擊 `install.bat` 或 `install-nvidia.bat` 檔案，選擇**以系統管理員身份執行**，以安裝 OpenAI Whisper 及相關程式。
 
-> `install.bat` 必須以**系統管理員身份執行**
+> `install.bat` **必須** 以 **系統管理員身份執行**
 
 | 檔案 | 說明 |
 | ---- | ----------- |

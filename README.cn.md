@@ -13,3 +13,4 @@
 | 工具 | 版本 | 支持的用例 |
 | --- | --- | --- |
 | [OpenAI whisper](./subtitle/README.cn.md) | 最新版 | 為不同語言的視頻創建字幕文件 |
+| [Demucs](./vocal-off/README.cn.md) | 最新版 | 去除人聲 / 為混音分離樂器 |

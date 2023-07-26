@@ -13,3 +13,4 @@ The AI tools nowadays are very powerful, but they are also very complicated. It 
 | AI tool | Version | Supported use case(s) |
 | --- | --- | --- |
 | [OpenAI whisper](./subtitle/) | Latest | Create subtitle files for videos in different languages |
+| [Demucs](./vocal-off/) | Latest | Vocal removal / Separate instruments for remix |
